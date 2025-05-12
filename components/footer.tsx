@@ -16,7 +16,7 @@ export default function Footer() {
                 height={40}
                 className="h-10 w-10"
               />
-              <span className="font-bold text-gradient">MoonLight Gems</span>
+              <span className="font-bold text-gradient">Moonlight Gem & Jewellery</span>
             </div>
             <p className="text-sm text-muted-foreground">
               Specializing in bespoke and handcrafted jewellery with certified genuine gems since 1996.
@@ -48,17 +48,17 @@ export default function Footer() {
           <div className="flex flex-col gap-2">
             <h3 className="font-semibold text-primary">Contact</h3>
             <address className="not-italic text-sm text-muted-foreground">
-              <p>JW8W+VCW, Wadduwa, Sri Lanka</p>
-              <p>+94 123 456 789</p>
-              <p>info@moonlightgems.com</p>
+              <p>Next to hotel Mermaid, Jayanthi mawatha, Waskaduwa, Sri Lanka</p>
+              <p>+94 71 6465 451</p>
+              <p>moonlightgj@gmail.com</p>
             </address>
           </div>
           <div className="flex flex-col gap-2">
             <h3 className="font-semibold text-primary">Hours</h3>
-            <p className="text-sm text-muted-foreground">Open 9:00 AM - 8:00 PM daily</p>
+            <p className="text-sm text-muted-foreground">Open 9:00 AM - 6:00 PM daily</p>
             <div className="flex gap-4 mt-2">
               <Link
-                href="https://facebook.com/moonlightgems"
+                href="https://www.facebook.com/MoonlightGemsandJewellery"
                 className="text-muted-foreground hover:text-primary transition-colors"
               >
                 <Facebook className="h-5 w-5" />
@@ -72,7 +72,7 @@ export default function Footer() {
                 <span className="sr-only">Instagram</span>
               </Link>
               <Link
-                href="https://tiktok.com/@moonlightgems"
+                href="https://www.tiktok.com/@moonlight20030809"
                 className="text-muted-foreground hover:text-primary transition-colors"
               >
                 <svg

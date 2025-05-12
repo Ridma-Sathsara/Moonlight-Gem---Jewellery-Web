@@ -315,7 +315,7 @@ export default function Home() {
                 style={{ animationDelay: "0.1s" }}
               >
                 <Image
-                  src="https://images.unsplash.com/photo-1602491676584-c2440fbd24f4?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                  src="https://images.unsplash.com/photo-1522777183857-cb4be6839fbe?q=80&w=1992&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                   alt="Ruby"
                   fill
                   className="object-cover transition-transform duration-500 group-hover:scale-110"
@@ -339,7 +339,7 @@ export default function Home() {
                 style={{ animationDelay: "0.2s" }}
               >
                 <Image
-                  src="https://images.unsplash.com/photo-1551732998-9573f695fdbb?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                  src="https://images.unsplash.com/photo-1600119612651-0db31b3a7baa?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                   alt="Emerald"
                   fill
                   className="object-cover transition-transform duration-500 group-hover:scale-110"
@@ -825,7 +825,7 @@ I've had a few pieces now from Moonlight, I've never lost a stone, earring back 
                 Browse Collection
               </Button>
             </div>
-            <div className="flex items-center justify-center gap-6 pt-8 text-muted-foreground">
+            {/* <div className="flex items-center justify-center gap-6 pt-8 text-muted-foreground">
               <Link href="https://facebook.com/moonlightgems" className="hover:text-primary transition-colors">
                 <Facebook className="h-6 w-6" />
                 <span className="sr-only">Facebook</span>
@@ -838,7 +838,7 @@ I've had a few pieces now from Moonlight, I've never lost a stone, earring back 
                 <TikTok className="h-6 w-6" />
                 <span className="sr-only">TikTok</span>
               </Link>
-            </div>
+            </div> */}
           </div>
         </div>
       </section>
