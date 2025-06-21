@@ -18,7 +18,7 @@ export default function Header() {
               height={40}
               className="h-10 w-10"
             />
-            <span className="hidden font-bold text-gradient sm:inline-block">Moonlight Gem & Jewellery</span>
+            <span className="font-bold text-gradient text-sm sm:text-base">Moonlight Gem & Jewellery</span>
           </Link>
         </div>
         <nav className="hidden md:flex gap-6">
