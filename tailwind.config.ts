@@ -59,6 +59,9 @@ const config = {
         md: "calc(var(--radius) - 2px)",
         sm: "calc(var(--radius) - 4px)",
       },
+      fontFamily: {
+        julius: ['"Julius Sans One"', 'sans-serif'],
+      },
       keyframes: {
         "accordion-down": {
           from: { height: "0" },

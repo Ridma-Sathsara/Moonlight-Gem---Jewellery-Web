@@ -36,7 +36,7 @@ export function ThemeToggle() {
         </Button>
       </DropdownMenuTrigger>
       <DropdownMenuContent align="end">
-        <DropdownMenuItem onClick={() => setTheme("light")} className={theme === "light" ? "bg-primary/10" : ""}>
+        <DropdownMenuItem onClick={() => setTheme("light")} className={theme === "light" ? "bg-primary-foreground/10" : ""}>
           <Sun className="h-4 w-4 mr-2" />
           Light
         </DropdownMenuItem>
